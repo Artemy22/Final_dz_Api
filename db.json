@@ -54,6 +54,38 @@
       "id": 11,
       "title": "json-server 11",
       "author": "art 11"
+    },
+    {
+      "id": 12
+    },
+    {
+      "email": "Mossie.Gusikowski22@gmail.com",
+      "password": "bestPassw0rd",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
     }
   ],
   "comments": [
@@ -65,5 +97,214 @@
   ],
   "profile": {
     "name": "art"
-  }
+  },
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$gDY6pHgGSBnS/il4IRlGE.a344ce8XUbJq3LmSujlXIHqVRNruAUy",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 1
+    },
+    {
+      "email": "Rae_Dietrich@yahoo.com",
+      "password": "$2a$10$7JJ1sGSxsbcwc7pJdLgKROmzM2RUnZpH4x8g83a1vkqmc.4QRzOba",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 2
+    },
+    {
+      "email": "Judson.Grimes@gmail.com",
+      "password": "$2a$10$Th9MYFMceOdSSWofodFKkO68rwsBoD0jwL/Yj8nW1Z8MJLVKEV1Wq",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 3
+    },
+    {
+      "email": "Johnathan.Stamm@yahoo.com",
+      "password": "$2a$10$2EncbkZWSe0WC82Jlr2x8eWWUhmMUqinaH.mOmlUV3gyl/a4zqVKe",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 4
+    },
+    {
+      "email": "Lea_Shields@gmail.com",
+      "password": "$2a$10$SGAUS1SKuukjR3nTLZdJ1.o.T2ShdfJJBr1G3LAmahq9Z90TsAzPm",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 5
+    },
+    {
+      "email": "Ryley98@yahoo.com",
+      "password": "$2a$10$WMaCUfSbHEGe4hHhf9Jc.uytzTutCCaIyFMQ5Ylu08gdUKDzfUe3S",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 6
+    },
+    {
+      "email": "Chandler.Wehner@gmail.com",
+      "password": "$2a$10$gq3bo9XIfORo5YyDTKwZv.TxngPDEy1isVCqpH/sGZL.Gm7O4kuDq",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 7
+    },
+    {
+      "email": "Edythe_Wolf25@yahoo.com",
+      "password": "$2a$10$7aNO1kmih1I7CqY3hvwNZuWFs4qyQNUM2k5jI2tPHZUDkChM8YKZG",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 8
+    },
+    {
+      "email": "Earline_Bergnaum@hotmail.com",
+      "password": "$2a$10$KJap10KNm1r/Lw8L6ge1O.tyXzDYTGI19iGD/mQ.f9UeDB/yJjkKm",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 9
+    },
+    {
+      "email": "Bernardo85@yahoo.com",
+      "password": "$2a$10$SOfnhSNiJCOdy1kEsfA3OOJMLwVkmnGkKx/eryNX7A5VPMqajEAQK",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 10
+    },
+    {
+      "email": "Kraig_Kemmer67@gmail.com",
+      "password": "$2a$10$KKqX349qYihllt6p4nkAmuB92XKYOg3zYx3CsIy8Rya84efBPbGlK",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 11
+    },
+    {
+      "email": "Llewellyn_Heidenreich@gmail.com",
+      "password": "$2a$10$MeqsggWf8UedV2eC.8tXDuCk3xIpUq7i0OBMyL1wf7Ev/EmlkUPgO",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 12
+    },
+    {
+      "email": "Ciara.Osinski@yahoo.com",
+      "password": "$2a$10$G8XIvVtzkONhsjF0uofkVuXv80fRJZPVD3IpCVVAdka8zrEMLgjhu",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 13
+    },
+    {
+      "email": "Kyler_Kunze47@hotmail.com",
+      "password": "$2a$10$NBSpIhC4WSqNSF9VFraSQOTgw6bshV8hAdDL8b1VC5P3zrAxk2ZZi",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 14
+    },
+    {
+      "email": "Corrine_Hudson1@yahoo.com",
+      "password": "$2a$10$J4cuuqQ1diEP6gstHBk7lOkud8J/r9VIYFlv4rutViThIOfY6OcUm",
+      "id": 15
+    },
+    {
+      "email": "Germaine_Kutch14@yahoo.com",
+      "password": "$2a$10$4zrIl3dPNdauvgRMqrf8PuxgMIf7W9hdRT8VednF4U8oul/OUTuZu",
+      "id": 16
+    },
+    {
+      "email": "Angus47@gmail.com",
+      "password": "$2a$10$fcoJsvWcN7hS8erWToc/ZufFAtLGnxO7bJ.rlz8yKf6/B4gpKp9wa",
+      "id": 17
+    },
+    {
+      "email": "Harley_Nader69@hotmail.com",
+      "password": "$2a$10$opIqx0US95EB78ysJFpF3uGOhOqaJh7faJuWc6sKOAm7NNFzzilD6",
+      "id": 18
+    },
+    {
+      "email": "Orville94@gmail.com",
+      "password": "$2a$10$4ud9FxfcCJTC.DYVTlW6iOF2WqZZdj4OVnVF8E1dtkxitaUS8G17m",
+      "id": 19
+    },
+    {
+      "email": "Alessandra44@yahoo.com",
+      "password": "$2a$10$845uwXMPvSc..cQCLsNfF.SJmdJuJf6Sdng/TAQqDFxLoI81er75S",
+      "id": 20
+    },
+    {
+      "email": "Ivory73@hotmail.com",
+      "password": "$2a$10$UnK5PnQWd7HIYMm9hmtQoeG6w.oFlSKgnMMLBL8DnyaY6t3WnqWvC",
+      "id": 21
+    },
+    {
+      "email": "Jeanette65@hotmail.com",
+      "password": "$2a$10$m9bEh3hS/DchnlYEUYcdLOcIegm2TgSTRkzfbX.g/RNTq4sjzRQm6",
+      "id": 22
+    },
+    {
+      "email": "Werner.Fisher0@yahoo.com",
+      "password": "$2a$10$5MNNs7aQ29YpjkbuReK/JOZi6wGM/fNd0qk1G3Y0fGkKOtcg3pRbC",
+      "id": 23
+    },
+    {
+      "email": "Zander_OReilly54@hotmail.com",
+      "password": "$2a$10$cBkpqi87mrQz299TOwWAXutTYlPxT22nQjCvcAfQ6GaCftXbxvyVq",
+      "id": 24
+    },
+    {
+      "email": "Abe_Wintheiser@hotmail.com",
+      "password": "$2a$10$dw2s/98pwIOJferHGQ/CMuoVOXsqEQV6R82RP8RlOp6dledUJZtdK",
+      "id": 25
+    },
+    {
+      "email": "Amiya.OConnell@gmail.com",
+      "password": "$2a$10$BVb/ay39Z8iuzqovom0z6ezwIazgwQ/AUnLJR0zkj46OkDjCF.LO2",
+      "id": 26
+    },
+    {
+      "email": "Lori_Kris98@hotmail.com",
+      "password": "$2a$10$fq5e4O.CB2OVPmhw0gdw7.4qfl8L.Zq0Zk84V/F2bOMyUKeQ3G.Sy",
+      "id": 27
+    },
+    {
+      "email": "Amie.Wisoky@hotmail.com",
+      "password": "$2a$10$dQQKCuXQlZtUDLLa3I969O6mAPJY92aIQTXSVw5AGJR7owdfZVx5q",
+      "id": 28
+    },
+    {
+      "email": "Johnnie51@hotmail.com",
+      "password": "$2a$10$kJb1Dw1Lb6F6jROkI384U.TDDXburWZzDbexechv11h5C1NxXVeK2",
+      "id": 29
+    },
+    {
+      "email": "Barbara_Doyle@yahoo.com",
+      "password": "$2a$10$mnXz3U8B8emzwUGLweTbX.JxQtYnPS.UC4HABKSIgZAEsLWPNMP..",
+      "id": 30
+    },
+    {
+      "email": "Walton_OConner76@hotmail.com",
+      "password": "$2a$10$7xOP/8OFpTr6xukD566UBuQeyuow49nK3GR74tFqDdVIm2RsQN0hS",
+      "id": 31
+    },
+    {
+      "email": "Amani_Lemke67@hotmail.com",
+      "password": "$2a$10$gRCLy8qEDWzuXTEx8tiIN.GlRZh5u33Uwr2IeHJ6omZPagygn37ja",
+      "id": 32
+    },
+    {
+      "email": "Aiden_Stanton@hotmail.com",
+      "password": "$2a$10$1/685KvQTHVf8sljCSP0WeAPV/7AqW9zUE2mdm9.LDcMRaEfm2oei",
+      "id": 33
+    }
+  ]
 }
