@@ -2,8 +2,58 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "art"
+      "title": "json-server 1",
+      "author": "art 1"
+    },
+    {
+      "id": 2,
+      "title": "json-server 2",
+      "author": "art 2"
+    },
+    {
+      "id": 3,
+      "title": "json-server 3",
+      "author": "art 3"
+    },
+    {
+      "id": 4,
+      "title": "json-server 4",
+      "author": "art 4"
+    },
+    {
+      "id": 5,
+      "title": "json-server 5",
+      "author": "art 5"
+    },
+    {
+      "id": 6,
+      "title": "json-server 6",
+      "author": "art 6"
+    },
+    {
+      "id": 7,
+      "title": "json-server 7",
+      "author": "art 7"
+    },
+    {
+      "id": 8,
+      "title": "json-server 8",
+      "author": "art 8"
+    },
+    {
+      "id": 9,
+      "title": "json-server 9",
+      "author": "art 9"
+    },
+    {
+      "id": 10,
+      "title": "json-server 10",
+      "author": "art 10"
+    },
+    {
+      "id": 11,
+      "title": "json-server 11",
+      "author": "art 11"
     }
   ],
   "comments": [
