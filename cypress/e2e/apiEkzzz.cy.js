@@ -72,18 +72,7 @@ describe('Api final dz', () => {
     })
   })
 
-
-
-
-
-
-
-
-
-
-
-
-  it('Task 6. Create post entity and verify that the entity is created. Verify HTTP response status code. Use JSON in body', () => {
+  it.skip('Task 6. Create post entity and verify that the entity is created. Verify HTTP response status code. Use JSON in body', () => {
     cy.request({
       method: 'POST',
       url: 'register',
@@ -109,18 +98,66 @@ describe('Api final dz', () => {
     })
   })
 
-
-
-
-
-
   it.skip('Task 7. Update non-existing entity. Verify HTTP response status code', () => {
-    cy.request('POST', '/664/posts') //201
+    cy.request({
+      method: 'PUT',
+      url: 'posts/789',
+      failOnStatusCode: false
+    })
+      .then(response => {
+        expect(response.status).to.be.equal(404)
+      })
   })
 
-  it.skip('Task 8. Create post entity and update the created entity. Verify HTTP response status code and verify that the entity is updated', () => {
-    cy.request('POST', '/664/posts') //201
+
+
+
+  it('Task 8. Create post entity and update the created entity. Verify HTTP response status code and verify that the entity is updated', () => {
+
+    cy.request({
+      method: 'POST',
+      url: 'register',
+      body: {
+        "email": email,
+        "password": "bestPassw0rd"
+      }
+    }).then(response => {
+      cy.request({
+        method: 'POST',
+        url: '664/posts',
+        headers: {
+          "Authorization": `Bearer ${response.body.accessToken}`
+        },
+        body: {
+          "qa": "art before"
+        }
+      })
+        .then(response => {
+          expect(response.status).to.be.equal(201)
+          expect(response.body.qa).to.be.equal('art before')
+
+          cy.request({
+            method: 'PUT',
+            url: `posts/${response.body.id}`,
+            failOnStatusCode: false,
+            headers: {
+              "Authorization": `Bearer ${response.body.accessToken}`
+            },
+            body: {
+              "qa": "art after"
+            }
+          })
+            .then(response => {
+              expect(response.status).to.be.equal(200)
+              expect(response.body.qa).to.be.equal('art after')
+            })
+        })
+    })
   })
+
+
+
+
 
   it.skip('Task 9. Delete non-existing post entity. Verify HTTP response status code', () => {
     cy.request('POST', '/664/posts') //201
